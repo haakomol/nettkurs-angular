@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Disable the fullhd breakpoint
+$fullhd-enabled: false;
+$section-padding: 2rem 1.5rem;
+
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
+@import "../node_modules/bulma/sass/grid/columns.sass";
+@import "../node_modules/bulma/sass/elements/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";

@@ -1,0 +1,31 @@
+{
+  "problems": [
+    {
+      "type": "choose-one",
+      "problem-text": "En av disse påstandene er <strong>ikke</strong> sann. Ser du hvilken? (Bruk punktene i definisjonen av mengde.)",
+      "alternatives": [
+        {
+          "alternative-text": "\\( a \\) er et element i mendgen \\( \\{2, a, 4, b \\} \\)",
+          "correct": false,
+          "hint": "Det er sant at \\( a \\) er et element i mendgen \\( \\{2, a, 4, b \\} \\), for \\( a \\) er listet opp som en av elementene i mengden."
+        },
+        {
+          "alternative-text": "Mengdene \\( \\{1, 2, 3\\} \\) og \\( \\left\\{3, 2, 1\\right\\} \\) er like",
+          "correct": false,
+          "hint": "Det er sant at mengdene {1, 2, 3} og {3, 2, 1} er like. Rekkefølgen elementene listes opp i har ingen betydning for hvilken mengde som angis."
+        },
+        {
+          "alternative-text": "\\( \\{2, 3\\} \\in \\{1, 2, 3, 4\\} \\)",
+          "correct": true
+        },
+        {
+          "alternative-text": "\\( \\{a, b, a\\} = \\{b, a, b\\} \\)",
+          "correct": false,
+          "hint": "Det er sant at {a, b, a} er lik {b, a, b}. Rekkefølgen elementene listes opp i og gjentagelse av det samme elementet har ingen betydning for hvilken mengde som angis. Begge disse mengdene er lik mengden {a, b}."
+        }
+      ],
+      "correct-feedback": "Riktig, det er usant at {2, 3} er et element i mengden {1, 2, 3, 4}. Både 2 og 3 er riktignok elementer i mengden {1, 2, 3, 4}, men {2, 3} er ikke en av de fire elementene i mengden. {2, 3} er derimot en <em>delmengde</em> av {1, 2, 3, 4}. Delmengder skal vi definere senere i kapitlet!",
+      "explanation": "<p>Den tredje påstanden er usann.</p>\n      <p>Det er sant at <em>a</em> er et element i mendgen {2, <em>a</em>, 4, <em>b</em>}. Vi ser at <em>a</em> er listet opp som en av elementene i mengden.</p>\n      <p>Det er sant at mengdene {1, 2, 3} og {3, 2, 1} er like. Elemenentene i en mengde har ingen innbyrdes rekkefølge. Rekkefølgen elementene listes opp i har altså ingen betydning for hvilken mengde man angir.</p>\n      <p>Det er usant at {2, 3} er et element i mengden {1, 2, 3, 4}. Både 2 og 3 er riktignok elementer i mengden {1, 2, 3, 4}, men {2, 3} er ikke en av de fire elementene i mengden. {2, 3} er derimot en <em>delmengde</em> av {1, 2, 3, 4}. Delmengder skal vi definere senere i kapitlet!</p>\n      <p>\\( \\{a, b, a\\} = \\{b, a, b\\} \\) - Det er sant at disse to mengdene er like. Elementer i en mengde har ingen innbyrdes rekkefølge. Videre kan et objekt kun enten være med i en mengde eller ikke være med i en mengde. Det er altså ikke noe begrep om antall forekomster av et objekt i en mengde. Hvis man skriver opp det samme elementet flere ganger mellom krøllparantensene når man angir en mengde, angir man den samme mengden som om man kun skrev opp elementet en gang. Begge disse mengdene er lik mengden {<em>a</em>, <em>b</em>}.</p>"
+    }
+  ]
+}

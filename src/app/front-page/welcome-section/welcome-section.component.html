@@ -1,0 +1,17 @@
+<section id="welcome-section">
+  <p id="welcome-to-text" class="subtitle is-4">Velkommen til nettkurset for</p>
+  <p id="welcome-course-name" class="title is-2">{{ config.courseName }}</p>
+
+  <div id="welcome-content-text" class="content" [innerHTML]="config.welcomeHtml"></div>
+
+  <div id="recourse-buttons" class="buttons">
+    <a class="button is-primary" href="https://www.uio.no/studier/emner/matnat/ifi/IN1150/h18/index.html" target="_blank">Semestersiden</a>
+    <a class="button is-light" href="#">Innleveringsoppgaver</a>
+    <a class="button is-light" href="#">
+      <span class="icon"><i class="fab fa-slack"></i></span><span>Slack-chat</span>
+    </a>
+    <a class="button is-light" href="https://www.youtube.com/user/inf1080"  target="_blank">
+      <span class="icon"><i class="fab fa-youtube"></i></span><span>YouTube-kanalen</span>
+    </a>
+  </div>
+</section>

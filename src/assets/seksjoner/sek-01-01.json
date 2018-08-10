@@ -1,0 +1,64 @@
+{
+  "pages": [
+    {
+      "components": [
+        {
+          "type": "video",
+          "title": "Definisjon av mengde og eksempler (8 min)",
+          "video-id": "VTHyjpHZdZE"
+        },
+        {
+          "type": "problem-set",
+          "title": "Test deg selv",
+          "json": "../oppgaver/oppg-01-01.json"
+        },
+        {
+          "type": "problem-set",
+          "title": "Utfordring",
+          "json": "../oppgaver/oppg-01-02.json"
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "type": "video",
+          "title": "Eksempel: Tallmengder (5 min)",
+          "video-id": "W33Fe4Hm71o"
+        },
+        {
+          "type": "problem-set",
+          "title": "Test deg selv",
+          "json": "../oppgaver/oppg-01-03.json"
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "type": "video",
+          "title": "Eksempel: Mengder og elementer (3 min)",
+          "video-id": "SMYQgExf8ag"
+        },
+        {
+          "type": "problem-set",
+          "title": "Test deg selv",
+          "json": "../oppgaver/oppg-01-04.json"
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "type": "video",
+          "title": "Den tomme mengden (2 min)",
+          "video-id": "xKJuFIES3w4"
+        },
+        {
+          "type": "html",
+          "content": "<p>Fullf&oslash;r&nbsp;disse setningene for &aring; f&aring; flere tomme mengder:</p>\n<ul>\n<li>&laquo;Mengden av alle fisker som ...&raquo;</li>\n<li>&laquo;Mengden av alle heltall som ikke er ... eller ...&raquo;</li>\n<li>&laquo;Mengden av alle land ...&raquo;</li>\n</ul>\n<p>Kan du tenke p&aring; flere tomme mengder?</p>"
+        }
+      ]
+    }
+  ]
+}

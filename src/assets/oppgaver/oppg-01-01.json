@@ -1,0 +1,27 @@
+{
+  "problems": [
+    {
+      "type": "choose-multi",
+      "problem-text": "<p>Hvilke av disse uttrykkene angir mengder?</p>\n<p>(Kryss av de riktige alternativene, og trykk «Sjekk svar»).</p>",
+      "alternatives": [
+        {
+          "alternative-text": "Mengden av alle UiO-studenter som er meldt opp til IN1150-eksamen dette semesteret",
+          "correct": true,
+          "hint": "Dette angir en mengde. Alle UiO-studenter som er meldt opp til IN1150-eksamen dette semesteret er elementer i mengden. (Alle setningene her som begynner med «Mengden av» angir mengder.)"
+        },
+        {
+          "alternative-text": "Roger Antonsen, foreleseren i videoen over",
+          "correct": false,
+          "hint": "Dette er ikke en mengde. Hvis vi jobber matematisk og ser på forelesere som en type objekter, så er mengden av forelesere ved Institutt for informatikk en mengde. Mengden som har Roger Antosen som eneste element er også en mengde. Men mens mengden som inneholder Roger Antonsen som eneste element er en mengde, er Roger Antonsen selv ikke en mengde, men en person eller en foreleser, avhengig av hvilket perspektiv man har."
+        },
+        {
+          "alternative-text": "\\( \\{1, 3, 5, 7, 9 \\} \\)",
+          "correct": true,
+          "hint": "\\( \\{1, 3, 5, 7, 9 \\} \\) er en mengde, siden vi her bruker notasjonen for mengder, og lister opp elementene i mengden separert med komma i mellom krøllparenteser."
+        },
+        // osv
+      ],
+      "explanation": "<p>Mengden av alle som er meldt opp til IN1150-eksamen dette semesteret - Dette angir en mengde. (Alle setningene her som begynner med «Mengden av» angir mengder.)</p>\n      <p>Roger Antonsen, foreleseren i videoen over - Dette er ikke en mengde. Hvis vi jobber matematisk og ser på forelesere som en type objekter, så er mengden av forelesere ved Institutt for informatikk en mengde. Mengden som har Roger Antosen som eneste element er også en mengde. (Mengder kan fint inneholde kun et element.) Men mens mengden som inneholder Roger Antonsen som eneste element er en mengde, er Roger Antonsen selv ikke en mengde, men en person eller en foreleser, avhengig av hvilket perspektiv man har. Mens mengden som inneholder Roger Antonsen har egenskaper som antall elementer, kan personen Roger Antonsen ha egenskaper som alder og hårfarge.</p>\n      <p>\\( \\left\\{1, 3, 5, 7, 9 \\right\\} \\) er en mengde, siden vi her bruker notasjonen for mengder, og lister opp elementene i mengden separert med komma i mellom krøllparenteser.</p>\n      <p>Mengden av alle mennesker med norsk statsborgerskap - Dette angir en mengde. Alle mennesker med norsk statsborgerskap er elementer i mengden.</p>\n      <p>Universitetet i Oslo - Dette er ikke en mengde. Hvis vi snakker om «mengden av alle emner ved UiO, eller mengden av alle som studerer ved UiO, så snakker vi om mengder. Universietet i Oslo er også et element i mengden av alle universiteter.</p>\n      <p>Mengden av alle atomer i universet - Dette angir en mengde. Et hvert atom i universet er et element i mengden. Hvorvidt dette er en veldefinert mengde eller ikke kan imidlertid diskuteres.</p>\n      <p>Mengden av alle naturlige tall som ikke har 4 som et siffer i tallet - Dette angir en (uendelig) mengde. Uendelige mengder skal vi se nærmere på i kapittel 8. Et hvert naturlig tall uten 4 som et siffer i tallet er et element i mengden. For eksempel er 5029 et element i mengden, mens 42 ikke er et element i mengden.</p>\n      <p>Mengden av de som alltid står opp med høyrebenet først - Dette er en mengde. Alle de som alltid står opp med høyrebenet først er elementer i mengden. Hvor veldefinert mengden er (altså om det er utvetydig hvem som hører med i denne mengden og hvem som ikke gjør det) kan riktignok diskuteres.</p>"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<ng-container *ngIf="config.isReady; else loading">
+  <app-welcome-section></app-welcome-section>
+  <app-chapter-select-section></app-chapter-select-section>
+</ng-container>
+
+<ng-template #loading><app-loading></app-loading></ng-template>
+

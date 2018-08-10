@@ -1,0 +1,12 @@
+{
+  "chaptersJSONUrl": "/assets/chapters.json",
+  "courseName": "IN1150 – Logiske metoder",
+  "welcomeHtml": "<p>Hvis du tar IN1150 som selvstudium høsten 2018 finner du alt av praktisk informasjon på <a href='https://www.uio.no/studier/emner/matnat/ifi/IN1150/h18/index.html'  target='_blank'>semestersiden</a>. Husk å følge med på din UiO-e-post og beskjeder på semstersiden så du ikke går glipp av viktig informasjon.</p>",
+  "welcome-text": "asdf",
+  "presentation-options": {
+    "chapters-prefix": "Kapittel",
+    "chapters-enumeration": true,
+    "chapters-index-by": "zero",
+    "sections-index-by": "zero"
+  }
+}

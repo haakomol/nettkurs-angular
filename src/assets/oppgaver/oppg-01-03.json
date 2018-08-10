@@ -1,0 +1,93 @@
+{
+  "problems": [
+    {
+      "type": "choose-multi",
+      "problem-text": "Tallet \\(-3\\) er et element i... (kryss av for alle som passer)",
+      "alternatives": [
+        {
+          "alternative-text": "mengden av naturlige tall",
+          "correct": false,
+          "hint": "Mengden av naturlige tall er mengden av alle heltall større eller lik 0, så -3 er ikke et naturlig tall."
+        },  
+        {
+          "alternative-text": "mengden av heltall",
+          "correct": true
+        },
+        {
+          "alternative-text": "mengden av rasjonale tall",
+          "correct": true
+        },
+        {
+          "alternative-text": "mengden av reelle tall",
+          "correct": true
+        }
+      ],
+      "explanation": "\\(-3\\) kan ikke være et naturlig tall, siden det er mindre enn \\(0\\). \\(-3\\) er et heltall, og er derfor også et rasjonalt tall og et reelt tall."
+    },
+    {
+      "type": "choose-multi",
+      "problem-text": "Tallet \\( \\pi \\) (pi) er et element i...",
+      "alternatives": [
+        {
+          "alternative-text": "\\( \\mathbb{N} \\)",
+          "correct": false
+        },
+        {
+          "alternative-text": "\\( \\mathbb{Z} \\)",
+          "correct": false
+        },
+        {
+          "alternative-text": "\\( \\mathbb{Q} \\)",
+          "correct": false,
+          "hint": "Tallet \\( \\pi \\) kan ikke skrives på formen \\( \\frac{m}{n} \\) der \\( m \\) og \\( n \\) er heltall, og \\( \\pi \\) er derfor ikke et rasjonalt tall (\\(\\pi\\) er altså ikke med i mengden \\( \\mathbb{Q} \\)). En annen måte å se det på er at desimalrepresentasjonen til \\( \\pi \\) har uendelig mange desimaler uten at en desimalrekke repeteres i det uendelige."
+        },
+        {
+          "alternative-text": "\\( \\mathbb{R} \\)",
+          "correct": true
+        }
+      ],
+      "explanation": "\\( \\pi \\) er ikke et rasjonalt tall, fordi det ikke finnes noen brøk med heltall i teller og nevner som er lik pi. (Siden rasjonale tall er forholdet mellom to heltall har rasjonale tall en «endelig eller periodisk desimalutvikling». Det betyr at når du skriver et rasjonalt tall som desimaltall, så kan det enten skrives med et endelig antall desimaler, eller så er det en bestemt sekvens av desimalene som gjentar seg i det uendelige. Men hvis man prøver å skrive \\( \\pi \\) som desimaltall vil man måtte skrive et uendelig antall desimaler, og det vil aldri være en sekvens av desimaler som gjentar seg i det uendelige. Slik er det for alle <em>irrasjonale</em> tall; reelle tall som ikke er rasjonale.)"
+    },
+    {
+      "type": "choose-multi",
+      "problem-text": "Tallet \\( 5,25 \\) er et element i...",
+      "alternatives": [
+        {
+          "alternative-text": "\\( \\mathbb{N} \\)",
+          "correct": false
+        },
+        {
+          "alternative-text": "\\( \\mathbb{Z} \\)",
+          "correct": false
+        },
+        {
+          "alternative-text": "\\( \\mathbb{Q} \\)",
+          "correct": true,
+          "hint": "\\( 5,25 \\) er et rasjonalt tall, for \\( 5,25 \\) kan skrives som brøken med \\( 21 \\) i teller og \\( 4 \\) i nevner, \\( \\frac{21}{4} \\). Alle tall som kan skrives med et endelig antall desimaler (to desimaler i dette tilfellet) er rasjonale, for alle slike tall kan skrives som en brøk med heltall i teller og nevner."
+        },
+        {
+          "alternative-text": "\\( \\mathbb{R} \\)",
+          "correct": true
+        }
+      ],
+      "explanation": "\\(5,25\\) kan skrives som brøken med \\(21\\) i teller og \\(4\\) i nevner, \\( \\frac{21}{4} \\), så \\(5,25\\) er et rasjonalt tall. Alle tall som kan skrives med et endelig antall desimaler (to desimaler i dette tilfellet) er rasjonale, for alle slike tall kan skrives som en brøk med heltall i teller og nevner. (Tall med et uendelig antall desimaler i sin desimalrepresentasjon er også rasjonale hvis en desimalrekke repeteres i det uendelige.)"
+    },
+    {
+      "type": "choose-multi",
+      "problem-text": "Hvilke av påstandene er sanne?",
+      "alternatives": [
+        {
+          "alternative-text": "Alle elementer i \\( \\mathbb{Q} \\) er elementer i \\( \\mathbb{R} \\).",
+          "correct": true
+        },
+        {
+          "alternative-text": "Alle elementer i \\( \\mathbb{R} \\) er elementer i \\( \\mathbb{Q} \\).",
+          "correct": false,
+          "hint": "Det er usant at alle elementer i ℝ er elementer i ℚ, for det finnes (uendelig mange) relle tall som ikke er rasjonale tall. Noen eksempler er π (pi), kvadratroten av 2 og kvadratroten av 99. (Disse relle tallene som ikke er rasjonale kalles for irrasjonale tall.)"
+        }
+      ],
+      "correct-feedback": "Det er sant at alle elementer i ℚ er elementer i ℝ, men det er ikke sant at alle elementer i ℝ er elementer i ℚ. Det finnes (uendelig mange) relle tall som ikke er rasjonale tall. Noen eksempler er π (pi), kvadratroten av 2 og kvadratroten av 99. Hvis begge påstandene var sanne ville det betydd at ℚ og ℝ er like.",
+      "explanation": "Alle elementer i \\( \\mathbb{Q} \\) er elementer i \\( \\mathbb{R} \\), for alle rasjonale tall er relle tall. Men alle elementer i \\( \\mathbb{R} \\) er ikke elementer i \\( \\mathbb{Q} \\), for det finnes (uendelig mange) relle tall som ikke er rasjonale tall. (Reelle tall som ikke er rasjonale kalles for <em>irrasjonale</em> tall.)"
+    }
+  ]
+}

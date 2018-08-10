@@ -1,0 +1,23 @@
+$page-width: 1152px;
+$half-width: ($page-width / 2);
+$navbar-height: 56px;
+$border-cutoff: 30px;
+$border-distance: 40px;
+
+#left-border {
+  position: fixed;
+  top: $navbar-height + $border-cutoff;
+  left: calc(50vw - (#{$half-width} + #{$border-distance}));
+  height: calc(100vh - ( #{$navbar-height} + 2 * #{$border-cutoff}));
+  width: 1px;
+  background-color: #ccc;
+}
+
+#right-border {
+  position: fixed;
+  top: $navbar-height + $border-cutoff;
+  left: calc(50vw + (#{$half-width} + #{$border-distance}));
+  height: calc(100vh - ( #{$navbar-height} + 2 * #{$border-cutoff}));
+  width: 1px;
+  background-color: #ccc;
+}

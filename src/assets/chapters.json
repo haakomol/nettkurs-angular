@@ -1,0 +1,129 @@
+{
+  "chapters": [
+    {
+      "title": "Kunsten å tenke abstrakt og matematisk",
+      "image": "images/chap-00.svg",
+      "json": "assets/chapters/chap-00.json"
+    },
+    {
+      "title": "Grunnleggende mengdelære",
+      "image": "images/chap-01.svg",
+      "json": "assets/chapters/chap-01.json"
+    },
+    {
+      "title": "Utsagnslogikk \\( \\neg P \\)",
+      "image": "images/chap-02.svg",
+      "json": "assets/chapters/chap-02.json"
+    },
+    {
+      "title": "Semantikk for utsagnslogikk",
+      "image": "images/chap-03.svg",
+      "json": "assets/chapters/chap-03.json"
+    },
+    {
+      "title": "Utsagnslogiske begreper",
+      "image": "images/chap-04.svg",
+      "json": "assets/chapters/chap-04.json"
+    },
+    {
+      "title": "Bevis, formodninger og moteksempler",
+      "image": "images/chap-05.svg",
+      "json": "assets/chapters/chap-05.json"
+    },
+    {
+      "title": "Relasjoner",
+      "image": "images/chap-06.svg",
+      "json": "assets/chapters/chap-06.json"
+    },
+    {
+      "title": "Funksjoner",
+      "image": "images/chap-07.svg",
+      "json": "assets/chapters/chap-07.json"
+    },
+    {
+      "title": "Litt mer mengdelære",
+      "image": "images/chap-08.svg",
+      "json": "assets/chapters/chap-08.json"
+    },
+    {
+      "title": "Tillukninger og induktivt definerte mengder",
+      "image": "images/chap-09.svg",
+      "json": "assets/chapters/chap-09.json"
+    },
+    {
+      "title": "Rekursive funksjoner",
+      "image": "images/chap-10.svg",
+      "json": "assets/chapters/chap-10.json"
+    },
+    {
+      "title": "Matematisk induksjon",
+      "image": "images/chap-11.svg",
+      "json": "assets/chapters/chap-11.json"
+    },
+    {
+      "title": "Strukturell induksjon",
+      "image": "images/chap-12.svg",
+      "json": "assets/chapters/chap-12.json"
+    },
+    {
+      "title": "Førsteordens språk",
+      "image": "images/chap-13.svg",
+      "json": "assets/chapters/chap-13.json"
+    },
+    {
+      "title": "Representasjon med kvantifiserte utsagn",
+      "image": "images/chap-14.svg",
+      "json": "assets/chapters/chap-14.json"
+    },
+    {
+      "title": "Tolkning i modeller",
+      "image": "images/chap-15.svg",
+      "json": "assets/chapters/chap-15.json"
+    },
+    {
+      "title": "Resonnering om modeller",
+      "image": "images/chap-16.svg",
+      "json": "assets/chapters/chap-16.json"
+    },
+    {
+      "title": "Abstraksjon med ekvivalensklasser og partisjoner",
+      "image": "images/chap-17.svg",
+      "json": "assets/chapters/chap-17.json"
+    },
+    {
+      "title": "Kombinatorikk",
+      "image": "images/chap-18.svg",
+      "json": "assets/chapters/chap-18.json"
+    },
+    {
+      "title": "Litt mer kombinatorikk",
+      "image": "images/chap-19.svg",
+      "json": "assets/chapters/chap-19.json"
+    },
+    {
+      "title": "Litt abstrakt algebra",
+      "image": "images/chap-20.svg",
+      "json": "assets/chapters/chap-20.json"
+    },
+    {
+      "title": "Grafteori",
+      "image": "images/chap-21.svg",
+      "json": "assets/chapters/chap-21.json"
+    },
+    {
+      "title": "Vandring i grafer",
+      "image": "images/chap-22.svg",
+      "json": "assets/chapters/chap-22.json"
+    },
+    {
+      "title": "Formelle språk og gramatikker",
+      "image": "images/chap-23.svg",
+      "json": "assets/chapters/chap-23.json"
+    },
+    {
+      "title": "Naturlig deduksjon",
+      "image": "images/chap-24.svg",
+      "json": "assets/chapters/chap-24.json"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pages": [
+    {
+      "components": [
+        {
+          "type": "video",
+          "title": "Introduksjon (1 min)",
+          "video-id": "MZgz0VeIbXo"
+        },
+        {
+          "type": "html",
+          "content": "<p>Denne introduksjonen er det lurt &aring; se om igjen til slutt!&nbsp;Da vil (forh&aring;pentligvis)&nbsp;alle begrepene her v&aelig;re meningsfulle for deg.</p>\n<p>Noen tenkeoppgaver f&oslash;r du g&aring;r videre:</p>\n<ul>\n<li>Hva tenker du p&aring; n&aring;r du h&oslash;rer begrepet &laquo;<em>mengde</em>&raquo;?</li>\n<li>Du er et element i mange mengder. Kan du tenke&nbsp;deg frem til noen mengder du er element i, og noen mengder du ikke er element i?</li>\n</ul>"
+        }
+      ]
+    }
+  ]
+}

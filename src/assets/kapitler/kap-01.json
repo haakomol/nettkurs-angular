@@ -1,0 +1,29 @@
+{
+  "sections": [
+    {
+      "title": "Introduksjon",
+      "pages": [
+        "Introduksjon"
+      ],
+      "json": "../seksjoner/sek-01-00.json"
+    },
+    {
+      "title": "1.1 Hva er en mengde?",
+      "pages": [
+        "Definisjon av mengde og eksempler",
+        "Eksempel: Tallmengder",
+        "Eksempel: Mengder og elementer",
+        "Den tomme mengden"
+      ],
+      "json": "../seksjoner/sek-01-01.json"
+    },
+    {
+      "title": "1.2 Konstruksjon av mengder",
+      "pages": [
+        "Konstruksjon av mengder med mengdebygger",
+        "Mengder av mengder"
+      ],
+      "json": "../seksjoner/sek-01-02.json"
+    }
+  ]
+}
