@@ -1,9 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
+// CSS for Katex
+@import '~katex/dist/katex.css';
+
+// Customizing Bulma..
+
 // Disable the fullhd breakpoint
 $fullhd-enabled: false;
 $section-padding: 2rem 1.5rem;
 
+// ..before importing what's needed from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
 @import "../node_modules/bulma/sass/layout/_all.sass";

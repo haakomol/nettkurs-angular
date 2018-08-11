@@ -1,0 +1,7 @@
+# Angular elements-magi
+
+Bruker angular elements / web components for å rendre latex fra <app-katex>-tags i dynamisk insatt HTML (via [innerHTML]="myHTML").
+Se https://www.academind.com/learn/angular/snippets/angular-elements-tutorial-introduction/
+og https://angular.io/guide/elements
+
+Har satt document-register-element i package.json til "1.8.1" ("pinned") i stedet for "^1.8.1", for å mitigate et problem som diskutert her: https://github.com/angular/angular/issues/24390. Løsningen der med å sette target i tsconfig til "ES2015" løste også problemet, men da blir den genererte javascript-koden mindre kompatibel med IE11 tror jeg.

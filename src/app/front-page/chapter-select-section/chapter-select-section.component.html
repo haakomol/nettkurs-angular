@@ -1,13 +1,12 @@
 <section class="chapter-select">
   <div class="columns is-mobile is-multiline is-centered" *ngIf="content.chaptersData; else loading">
 
-    <div class="column is-narrow" *ngFor="let chapterData of content.chaptersData; let i = index">
-      <a class="chapter-card box has-text-centered" routerLink="kap/{{i}}">
-        <p class="subtitle is-5"><em>Kapittel {{ i }}</em></p>
-        <hr>
-        <p class="title is-5">{{ chapterData.title }}</p>
-      </a>
-    </div>
+    <app-chapter-select-box
+      class="column is-narrow"
+      [chapterNumber]="i"
+      [chapterTitle]="chapterData.title"
+      *ngFor="let chapterData of content.chaptersData; let i = index">
+    </app-chapter-select-box>
   </div>
 
   <ng-template #loading>Laster inn...</ng-template>

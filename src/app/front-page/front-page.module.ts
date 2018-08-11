@@ -5,17 +5,21 @@ import { WelcomeSectionComponent } from './welcome-section/welcome-section.compo
 import { ChapterSelectSectionComponent } from './chapter-select-section/chapter-select-section.component';
 import { LoadingComponent } from './loading/loading.component';
 import { RouterModule } from '@angular/router';
+import { SharedModule } from '../shared/shared.module';
+import { ChapterSelectBoxComponent } from './chapter-select-box/chapter-select-box.component';
 
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forChild([])
+    RouterModule.forChild([]),
+    SharedModule
   ],
   declarations: [
     FrontPageComponent,
     WelcomeSectionComponent,
     ChapterSelectSectionComponent,
-    LoadingComponent
+    LoadingComponent,
+    ChapterSelectBoxComponent
   ],
   exports: [
     FrontPageComponent

@@ -6,12 +6,12 @@
       "json": "assets/chapters/chap-00.json"
     },
     {
-      "title": "Grunnleggende mengdelære",
+      "title": "Grunnleggende mengdelære <app-katex equation='\\{ 1, 2, 3 \\}'></app-katex>",
       "image": "images/chap-01.svg",
       "json": "assets/chapters/chap-01.json"
     },
     {
-      "title": "Utsagnslogikk \\( \\neg P \\)",
+      "title": "Utsagnslogikk <app-katex equation='\\neg P'></app-katex>",
       "image": "images/chap-02.svg",
       "json": "assets/chapters/chap-02.json"
     },
